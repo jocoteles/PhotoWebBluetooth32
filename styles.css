@@ -24,6 +24,14 @@ h3 { text-align: center; margin-top: 0; color: #555; font-weight: normal; }
 .page-div { display: none; }
 .page-div.visible { display: block; }
 
+#div-conexao {
+    flex-direction: column;
+    min-height: 60vh;
+}
+#div-conexao.page-div.visible {
+    display: flex;
+}
+
 button { background-color: #3498db; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; font-size: 16px; margin: 5px; transition: background-color 0.3s; }
 button:hover { background-color: #2980b9; }
 button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
@@ -49,6 +57,29 @@ button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
 .connection-buttons button {
     flex: 1; /* Faz os botões ocuparem o mesmo espaço */
     max-width: 200px; /* Define uma largura máxima para não ficarem muito grandes */
+}
+
+.connection-footer {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.connection-footer-text {
+    margin: 0 auto;
+    padding: 0 clamp(12px, 8vw, 120px);
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.5;
+}
+.connection-footer-text a {
+    color: inherit;
+    font-weight: 600;
+}
+.connection-footer-logo {
+    display: block;
+    width: clamp(140px, 40vw, 260px);
+    height: auto;
+    margin: 12px auto 0;
 }
 
 label { display: block; margin-bottom: 8px; font-weight: bold; }

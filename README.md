@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1069222377.svg)](https://doi.org/10.5281/zenodo.18802757)
+
 # PhotoWebBluetooth32 (PWB32)
 
 PhotoWebBluetooth32 é um sistema photogate de seis canais, de baixo custo e alta performance, projetado para laboratórios de ensino de Física. Ele utiliza um microcontrolador ESP32 para realizar a aquisição de dados e os transmite via Bluetooth para uma Progressive Web App (PWA), que serve como interface de controle e visualização.

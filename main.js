@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><b>Google Chrome</b> ou <b>Microsoft Edge</b> no Windows, macOS, Linux ou Android.</li>
                     <li><b>Opera</b> no Windows, macOS ou Android.</li>
                 </ul>
-                <p><b>Atenção:</b> Em desktops, pode ser necessário habilitar a flag <code>chrome://flags/#enable-experimental-web-platform-features</code> no Chrome/Edge.</p>
+                <p><b>Atenção:</b> Em desktops, pode ser necessário habilitar a flag:<br><code>chrome://flags/#enable-experimental-web-platform-features</code> no Chrome/Edge.</p>
                 <p>O Web Bluetooth não é suportado nos principais navegadores iOS (iPhone/iPad). Mas você pode tentar o aplicativo Bluefy – Web BLE Browser.</p>
             </div>
         `;
